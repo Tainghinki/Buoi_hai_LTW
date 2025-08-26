@@ -74,7 +74,10 @@ input[type="checkbox"] {
 .checkbox-group {
     margin-bottom: 1.2em;
 }
-
+.logo {
+    text-align: center;   /* Căn giữa theo chiều ngang */
+    margin-bottom: 1em;   /* Thêm khoảng cách dưới logo */
+  }
 button, 
 input[type="submit"] {
     width: 100%;
