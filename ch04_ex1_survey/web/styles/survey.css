@@ -1,0 +1,118 @@
+/* Reset cơ bản */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: #f4f6f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 2em;
+}
+
+.container {
+    background: #fff;
+    padding: 2em 2.5em;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 420px;
+}
+
+h1 {     
+    font-size: 1.8em;
+    color: #006d77;
+    margin-bottom: 0.8em;    
+    text-align: center;
+}
+
+h2 {     
+    font-size: 1.3em;
+    color: #006d77;
+    margin-bottom: 0.5em;    
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.3em;
+    color: #444;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="date"] {  
+    width: 100%;
+    padding: 0.6em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 1em;
+    font-size: 0.95em;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+input[type="date"]:focus {
+    border-color: #006d77;
+    outline: none;
+}
+
+input[type="radio"], 
+input[type="checkbox"] {
+    margin-right: 0.4em;
+    transform: scale(1.1);
+}
+
+.radio-group, 
+.checkbox-group {
+    margin-bottom: 1.2em;
+}
+
+button, 
+input[type="submit"] {
+    width: 100%;
+    padding: 0.7em;
+    border: none;
+    border-radius: 6px;
+    background-color: #006d77;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover, 
+input[type="submit"]:hover {
+    background-color: #004f54;
+}
+
+/* Bảng (nếu có dùng table) */
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;   
+    width: 100%;
+    margin-top: 1em;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 0.7em;
+}
+
+th {
+    background: #e6f2f3;
+}
+
+.right {
+    text-align: right;
+}
